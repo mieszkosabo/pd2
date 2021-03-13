@@ -100,11 +100,13 @@ module.exports = {
         'jsx-a11y/role-supports-aria-props': 2,
         'newline-per-chained-call': 0,
         'no-confusing-arrow': 0,
+        'space-infix-ops': 'off',
         'no-console': 1,
+        'react/jsx-props-no-spreading': 'off',
         'no-use-before-define': 0,
         'prefer-template': 2,
+        'react/prop-types': 'off',
         'class-methods-use-this': 0,
-        'react/forbid-prop-types': 0,
         'react/jsx-first-prop-new-line': [
             'error',
             'multiline'
@@ -112,7 +114,6 @@ module.exports = {
         'react/jsx-filename-extension': 0,
         'react/jsx-no-target-blank': 0,
         'react/require-extension': 0,
-        'react/require-default-props': 1,
         'react/self-closing-comp': 0,
         'react/jsx-indent': [
             'error',

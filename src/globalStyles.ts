@@ -1,11 +1,12 @@
-import { normalize } from 'polished';
 import { createGlobalStyle } from 'styled-components';
 
 export const GlobalStyle = createGlobalStyle`
     html {
       box-sizing: border-box;
-      font-size: 18px;
-      background-color: black;
+      font-size: ${({ theme }) => theme.typeScale.paragraph};
+      background-color: ${({ theme }) => theme.colors.background};
+      color: ${({ theme }) => theme.colors.text};
+    }};
     }
     *, *:before, *:after {
       box-sizing: inherit;
@@ -13,9 +14,8 @@ export const GlobalStyle = createGlobalStyle`
     body {
       margin: 0;
       padding: 0;
-      font-family: 'Helvetica';
+      font-family: ${({ theme }) => theme.fontFamilies.primary};
       -webkit-font-smoothing: antialiased;
       -moz-osx-font-smoothing: grayscale;
     }
-    ${normalize()}
 `;
