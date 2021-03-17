@@ -6,6 +6,11 @@ import { Flexbox } from './layout/Flexbox';
 const ImageText = styled.p`
     font-size: ${({ theme }) => theme.typeScale.paragraph};
     font-weight: ${({ theme }) => theme.fontWeights.bold};
+    margin-bottom: 0;
+`;
+
+const ImageWrapper = styled(Flexbox)`
+    margin: ${({ theme }) => theme.dims.mediumSpace} 0;
 `;
 
 interface Props {
@@ -13,13 +18,13 @@ interface Props {
   height: number;
   text: string;
   src: string;
-  layout: 'fixed' | 'responsive' | 'intrinsic' | undefined
+  layout?: 'fixed' | 'responsive' | 'intrinsic' | undefined
 }
 
 export const Img: React.FC<Props> = ({
     src, height, width, text, layout
 }) => (
-    <Flexbox direction="column" align="center">
+    <ImageWrapper direction="column" align="center">
         <Image
             src={src}
             height={height}
@@ -30,5 +35,5 @@ export const Img: React.FC<Props> = ({
         <ImageText>
             {text}
         </ImageText>
-    </Flexbox>
+    </ImageWrapper>
 );

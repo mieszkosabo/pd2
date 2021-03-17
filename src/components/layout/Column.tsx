@@ -7,6 +7,6 @@ export const Column = styled(Flexbox)`
     flex-direction: column;
     padding-left: 32px;
     padding-right: 32px;
-    margin-top: 72px;
-    margin-bottom: 142px;
+    margin-top: ${({ theme }) => theme.dims.mediumSpace};
+    margin-bottom: ${({ theme }) => theme.dims.mediumSpace};
 `;

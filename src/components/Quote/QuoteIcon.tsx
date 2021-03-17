@@ -6,7 +6,10 @@ interface Props {
 }
 
 const QuoteIconWrapper = styled.div<Props>`
-    width: 139px;
+    width: 100px;    
+    @media screen and (min-width: 576px) {
+        width: 139px;        
+    }    
     transform: ${({ rotated }) => rotated ? 'rotate(180deg)' : 'unset'};
 `;
 

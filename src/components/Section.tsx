@@ -20,8 +20,9 @@ const SectionText = styled.h1<SectionTextProps>`
     line-height: 1.2;
 `;
 
-const SectionWrapper = styled(Flexbox)`
-    margin: ${({ theme }) => theme.dims.mediumSpace} 0;
+// eslint-disable-next-line no-undef
+const SectionWrapper = styled(Flexbox)<{ small: boolean }>`
+    margin: ${({ theme, small }) => small ? theme.dims.smallSpace : theme.dims.mediumSpace} 0;
 `;
 
 interface SectionProps extends SectionTextProps {
@@ -29,7 +30,7 @@ interface SectionProps extends SectionTextProps {
 }
 
 export const Section: React.FC<SectionProps> = ({ text, type }) => (
-    <SectionWrapper justify="flex-start" direction="column">
+    <SectionWrapper small={type === 'h3'} justify="flex-start" direction="column">
         <SectionText as={type} type={type}>
             {text}
         </SectionText>

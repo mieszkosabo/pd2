@@ -1,3 +1,5 @@
+/* eslint-disable react/no-unescaped-entities */
+/* eslint-disable max-len */
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import Head from 'next/head';
 import React from 'react';
@@ -8,7 +10,6 @@ import { Paragraph } from '../src/components/Paragraph';
 import { Quote } from '../src/components/Quote';
 import { Section } from '../src/components/Section';
 import { Img } from '../src/components/Img';
-import { List } from '../src/components/List/List';
 
 const Homepage = () => (
     <div>
@@ -157,7 +158,7 @@ const Homepage = () => (
                     During the 1930s, Witkiewicz published a text on his experiences of narcotics,
                     {' '}
                     <Link>including peyote</Link>
-                    , and pursued his interests in philosophy writing, Concepts and Principles Implied by the Concept of Existence 1935.[10] He also promoted emerging writers such as
+                    , and pursued his interests in philosophy writing, Concepts and Principles Implied by the Concept of Existence 1935. He also promoted emerging writers such as
                     {' '}
                     <Link>Bruno Schulz.</Link>
                 </Paragraph>
@@ -191,22 +192,97 @@ const Homepage = () => (
                 />
                 <Section type="h2" text="Legacy 📜" />
                 <Paragraph>
-                    Witkiewicz had died in some obscurity but his reputation began to rise soon after the war, which had destroyed his life and devastated Poland. Outside of Poland his work was discussed as a precursor to post-ww2 European drama in Martin Esslin's influential "Theatre of the Absurd" 1961,[15] and later in Hans-Theis Lehmann's "Postdramatic Theatre" 2006.[16] Konstanty Puzyna collected his surviving dramatic writings in two volumes in "Dramaty" (Dramas) 1962 which revived interest in his plays in Poland. Through his translations and scholarship, Daniel Gerould introduced English-language audiences to the writings of Witkiewicz.
+                    Witkiewicz had died in some obscurity but his reputation began to rise soon after the war, which had destroyed his life and devastated Poland. Outside of Poland his work was discussed as a precursor to post-ww2 European drama in
+                    {' '}
+                    <Link>Martin Esslin's</Link>
+                    {' '}
+                    influential
+                    {' '}
+                    <Link>"Theatre of the Absurd"</Link>
+                    {' '}
+                    1961, and later in Hans-Theis Lehmann's "Postdramatic Theatre" 2006.
+                    {' '}
+                    <Link>Konstanty Puzyna</Link>
+                    {' '}
+                    collected his surviving dramatic writings in two volumes in "Dramaty" (Dramas) 1962 which revived interest in his plays in Poland. Through his translations and scholarship,
+                    {' '}
+                    <Link>Daniel Gerould</Link>
+                    {' '}
+                    introduced English-language audiences to the writings of Witkiewicz.
                 </Paragraph>
                 <Paragraph>
-                    Czesław Miłosz framed his argument in The Captive Mind around a discussion of Witkiewicz's novel, Insatiability. The artist and theater director Tadeusz Kantor was inspired by the Cricot group, through which Witkiewicz had presented his final plays in Kraków. Kantor brought many of the plays back into currency, first in Poland and then internationally, including The Cuttlefish (1956) and The Water Hen (1969). Visual artist Paulina Olowska produced Witkiewicz's Mother at the Tate Modern in 2015.[17]
+                    <Link>Czesław Miłosz</Link>
+                    {' '}
+                    framed his argument in
+                    {' '}
+                    <Link>The Captive Mind</Link>
+                    {' '}
+                    around a discussion of Witkiewicz's novel, Insatiability. The artist and theater director
+                    {' '}
+                    <Link>Tadeusz Kantor</Link>
+                    {' '}
+                    was inspired by the Cricot group, through which Witkiewicz had presented his final plays in
+                    {' '}
+                    <Link>Kraków</Link>
+                    . Kantor brought many of the plays back into currency, first in Poland and then internationally, including The Cuttlefish (1956) and The Water Hen (1969). Visual artist
+                    {' '}
+                    <Link>Paulina Olowska</Link>
+                    {' '}
+                    produced Witkiewicz's Mother at the
+                    {' '}
+                    <Link>Tate Modern</Link>
+                    {' '}
+                    in 2015.
                 </Paragraph>
                 <Paragraph>
-                    Films which have Witkiewicz as the subject include Tumor Witkacego 1985,[18] Mystification 2010 [19] and Witkacy and Malinowski: a cinematic séance in 23 scenes 2017.[20] Films based on his works include Ludiot i kalugericata 1968,[21]Farewell to Autumn 1990,[22] Insatiability 2003,[23]Madame Tutli-Putli 2007[24] and Nursery Rhyme of a Madman 2017.[25]
+                    Films which have Witkiewicz as the subject include Tumor Witkacego 1985, Mystification 2010  and Witkacy and Malinowski: a cinematic séance in 23 scenes 2017. Films based on his works include Ludiot i kalugericata 1968, Farewell to Autumn 1990, Insatiability 2003, Madame Tutli-Putli 2007 and Nursery Rhyme of a Madman 2017.
                 </Paragraph>
                 <Paragraph>
-                    Witkiewicz's paintings and pastel drawings are in the collections of the National Museum, Warsaw,[26] the National Museum, Kraków, Museum of Literature, Warsaw and the Museum of Central Pomerania with 125 works in Słupsk Castle.[27] The Metropolitan Museum of Art[28] and Museum of Modern Art[29] in New York, and the Art Gallery of New South Wales,[30] Sydney hold important examples of his photography.
+                    Witkiewicz's paintings and pastel drawings are in the collections of the
+                    {' '}
+                    <Link>National Museum, Warsaw</Link>
+                    , the
+                    {' '}
+                    <Link>National Museum, Kraków</Link>
+                    ,
+                    {' '}
+                    <Link>Museum of Literature, Warsaw</Link>
+                    {' '}
+                    and the
+                    {' '}
+                    <Link>Museum of Central Pomerania</Link>
+                    {' '}
+                    with 125 works in
+                    {' '}
+                    <Link>Słupsk Castle</Link>
+                    .
+                    {' '}
+                    <Link>The Metropolitan Museum of Art</Link>
+                    {' '}
+                    and
+                    {' '}
+                    <Link>Museum of Modern Art</Link>
+                    {' '}
+                    in New York, and the
+                    {' '}
+                    <Link>Art Gallery of New South Wales</Link>
+                    , Sydney hold important examples of his photography.
                 </Paragraph>
                 <Paragraph>
-                    In the postwar period, People's Republic of Poland's Ministry of Culture decided to exhume Witkiewicz's body, move it to Zakopane, and give it a solemn funeral. This was carried out according to plan, though no one was allowed to open the coffin that had been delivered by the Soviet authorities.
+                    In the postwar period,
+                    {' '}
+                    <Link>People's Republic of Poland</Link>
+                    's Ministry of Culture decided to exhume Witkiewicz's body, move it to
+                    {' '}
+                    <Link>Zakopane</Link>
+                    , and give it a solemn funeral. This was carried out according to plan, though no one was allowed to open the coffin that had been delivered by the Soviet authorities.
                 </Paragraph>
                 <Paragraph>
-                    On 26 November 1994, the Polish Ministry of Culture and Art ordered the exhumation of the presumed grave of Witkiewicz in Zakopane. Genetic tests on the remaining bones proved that the body had belonged to an unknown woman — a final absurdist joke, fifty years after the publication of Witkacy's last novel.[31]
+                    On 26 November 1994, the Polish
+                    {' '}
+                    <Link>Ministry of Culture and Art</Link>
+                    {' '}
+                    ordered the exhumation of the presumed grave of Witkiewicz in Zakopane. Genetic tests on the remaining bones proved that the body had belonged to an unknown woman — a final absurdist joke, fifty years after the publication of Witkacy's last novel.
                 </Paragraph>
                 <Section type="h2" text="Works 🎨" />
                 <Section type="h3" text="Art philosophy" />
@@ -215,6 +291,33 @@ const Homepage = () => (
                         <b>Nowe formy w malarstwie</b>
                         {' '}
                         (1919), translated into English as New Forms in Painting and the Misunderstandings Arising Therefrom (in The Witkiewicz Reader, Quartet, 1993)
+                    </li>
+                    <li>
+                        <b>Szkice estetyczne</b>
+                        {' '}
+                        (Aesthetic Sketches, 1922)
+                    </li>
+                </ul>
+                <Section type="h3" text="Other Works" />
+                <ul>
+                    <li>
+                        <b>Narkotyki — niemyte dusze</b>
+                        {' '}
+                        (1932), partial translation into English as Narcotics (in The Witkiewicz Reader)
+                    </li>
+                    <li>
+                        <b>Pojęcia i twierdzenia implikowane przez pojęcie istnienia</b>
+                        {' '}
+                        (Concepts and Statements Implied by the Idea of Existence) (1935)
+                    </li>
+                    <li>
+                        <b>Jedyne wyjście</b>
+                    </li>
+                    <li>
+                        <b>Kompozycia fantastyczna</b>
+                    </li>
+                    <li>
+                        <b>Pocałunek mongolskiego księcia</b>
                     </li>
                 </ul>
             </Column>
