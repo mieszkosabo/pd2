@@ -30,7 +30,7 @@ interface SectionProps extends SectionTextProps {
 }
 
 export const Section: React.FC<SectionProps> = ({ text, type }) => (
-    <SectionWrapper small={type === 'h3'} justify="flex-start" direction="column">
+    <SectionWrapper as="section" small={type === 'h3'} justify="flex-start" direction="column">
         <SectionText as={type} type={type}>
             {text}
         </SectionText>

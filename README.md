@@ -1,1 +1,1 @@
-# nextjs-styled-components-boilerplate
+# HCI, Homework 2 
