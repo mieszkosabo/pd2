@@ -3,7 +3,7 @@ export interface FontFamilies {
 }
 
 export const fontFamilies: FontFamilies = {
-    primary: 'Helvetica, Arial, sans-serif'
+    primary: 'europa, sans-serif'
 };
 
 export interface FontWeights {
