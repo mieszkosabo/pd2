@@ -1,6 +1,8 @@
 import { createGlobalStyle } from 'styled-components';
+import sanitizeGlobalStyles from 'sanitize-global-styles';
 
 export const GlobalStyle = createGlobalStyle`
+    ${sanitizeGlobalStyles()}
     html {
       box-sizing: border-box;
       font-size: ${({ theme }) => theme.typeScale.paragraph};
