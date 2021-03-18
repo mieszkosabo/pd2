@@ -41,7 +41,7 @@ const Homepage = () => (
                     {' '}
                     <Link>interwar period.</Link>
                 </Paragraph>
-                <Section type="h2" text="Life ✨" />
+                <Section type="h2" text="Life" />
                 <Paragraph>
                     Born in
                     {' '}
@@ -164,7 +164,7 @@ const Homepage = () => (
                     {' '}
                     <Link>Bruno Schulz.</Link>
                 </Paragraph>
-                <Section type="h2" text="Death 😵" />
+                <Section type="h2" text="Death" />
                 <Paragraph>
                     Shortly after Poland was
                     {' '}
@@ -192,7 +192,7 @@ const Homepage = () => (
                     height={385}
                     text="Fantasy – Fairy-tale, 1922"
                 />
-                <Section type="h2" text="Legacy 📜" />
+                <Section type="h2" text="Legacy" />
                 <Paragraph>
                     Witkiewicz had died in some obscurity but his reputation began to rise soon after the war, which had destroyed his life and devastated Poland. Outside of Poland his work was discussed as a precursor to post-ww2 European drama in
                     {' '}
@@ -286,7 +286,7 @@ const Homepage = () => (
                     {' '}
                     ordered the exhumation of the presumed grave of Witkiewicz in Zakopane. Genetic tests on the remaining bones proved that the body had belonged to an unknown woman — a final absurdist joke, fifty years after the publication of Witkacy's last novel.
                 </Paragraph>
-                <Section type="h2" text="Works 🎨" />
+                <Section type="h2" text="Works" />
                 <Section type="h3" text="Art philosophy" />
                 <ul>
                     <li>

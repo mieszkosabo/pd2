@@ -16,7 +16,7 @@ const SectionText = styled.h1<SectionTextProps>`
     @media (max-width: 443px) {
         font-size: ${({ type, theme }) => theme.typeScale[type][1]};
     }
-    margin: 0;
+    margin: 0 0 4px 0;
     line-height: 1.2;
 `;
 

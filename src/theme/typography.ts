@@ -26,9 +26,9 @@ export interface TypeScale {
 }
 export const typeScale: TypeScale = {
     h1: ['72px', '58px'],
-    h2: ['48px', '48px'],
+    h2: ['56px', '48px'],
     h3: ['24px', '24px'],
     intro: ['24px'],
-    paragraph: ['18px'],
-    quote: ['24px']
+    paragraph: ['20px'],
+    quote: ['26px']
 };
